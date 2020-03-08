@@ -47,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/db/fixtures" />
       <recent name="$PROJECT_DIR$/app/models" />
@@ -175,7 +176,7 @@
       <updated>1583394832459</updated>
       <workItem from="1583394837827" duration="475000" />
       <workItem from="1583395326904" duration="151000" />
-      <workItem from="1583395501166" duration="69491000" />
+      <workItem from="1583395501166" duration="71469000" />
     </task>
     <servers />
   </component>

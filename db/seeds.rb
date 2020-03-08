@@ -10,4 +10,11 @@
 
 # 「rails db:seed」 のコマンドで、seed.rbのクエリが実行される。
 # seed.rbが実行されるとseedFuが実行される
+#
 SeedFu.seed
+
+# herokuデプロイの場合
+# heroku run rails db:seed_fu FILTER=shop --app better-pay1
+# heroku run rails db:seed_fu FILTER=pay --app better-pay1
+# heroku run rails db:seed_fu FILTER=campaign --app better-pay1
+# の順番にやらないと、campaignの外部キーエラーになる。
