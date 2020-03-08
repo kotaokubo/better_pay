@@ -175,7 +175,7 @@
       <updated>1583394832459</updated>
       <workItem from="1583394837827" duration="475000" />
       <workItem from="1583395326904" duration="151000" />
-      <workItem from="1583395501166" duration="66535000" />
+      <workItem from="1583395501166" duration="68610000" />
     </task>
     <servers />
   </component>
@@ -192,9 +192,10 @@
     </state>
     <state x="-1284" y="-333" width="659" height="777" key="find.popup/1440.428.960.624/0.23.1440.877/-1920.-518.1920.1057@-1920.-518.1920.1057" timestamp="1583594806217" />
     <state x="-1289" y="-390" width="659" height="777" key="find.popup/1440.428.960.681/0.23.1440.820/-1920.-518.1920.1057@-1920.-518.1920.1057" timestamp="1583475483095" />
-    <state x="-1294" y="-289" width="670" height="676" key="search.everywhere.popup" timestamp="1583644368074">
-      <screen x="-1920" y="-518" width="1920" height="1057" />
+    <state x="470" y="201" width="670" height="525" key="search.everywhere.popup" timestamp="1583654335001">
+      <screen x="0" y="23" width="1440" height="820" />
     </state>
+    <state x="470" y="201" width="670" height="525" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1583654335001" />
     <state x="-1294" y="-289" width="670" height="676" key="search.everywhere.popup/1440.428.960.681/0.23.1440.820/-1920.-518.1920.1057@-1920.-518.1920.1057" timestamp="1583644368074" />
   </component>
 </project>
