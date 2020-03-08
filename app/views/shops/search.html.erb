@@ -1,0 +1,31 @@
+<%= form_tag({ :controller => 'shops', :action => 'search'}, {:method => 'get'}) do %>
+  <p class="shop-form">お店の名前</p>
+  <div class ="form-inline">
+    <div>
+      <%= text_field_tag :name,'', class: 'form-control',placeholder: 'セブンイレブン' %>
+    </div>
+    <div>
+      <%= submit_tag '検索', name:nil, class: 'btn btn-primary' %>
+    </div>
+  </div>
+
+<% end %>
+  <% if @shops == [] %>
+    <h5>お店が見つかりません。</h5>
+    <h5>カタカナや英語、フルネームで試してみてね><</h5>
+  <% else %>
+  <ul>
+    <% @shops.each do |shop| %>
+      <h4><%= shop.name %></h4>
+      <hr class="hr">
+      <% shop.campaigns.each.with_index(1) do |campaign, i| %>
+        <div class="campaign-container">
+          <p class="p"><%= i %>位</p>
+          <p class="p"><%= campaign.pay.name %></p>
+          <p class="p"><%= campaign.content %>%還元</p>
+        </div>
+      <% end %>
+      <hr class="hr">
+    <% end %>
+  <% end %>
+</ul>

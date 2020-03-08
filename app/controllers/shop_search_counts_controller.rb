@@ -1,0 +1,3 @@
+class ShopSearchCountsController < ApplicationController
+
+end

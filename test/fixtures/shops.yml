@@ -1,0 +1,19 @@
+# == Schema Information
+#
+# Table name: shops
+#
+#  id         :integer          not null, primary key
+#  category   :integer
+#  count      :integer
+#  name       :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  name: MyString
+  category: 1
+
+two:
+  name: MyString
+  category: 1

@@ -1,0 +1,11 @@
+<%= form_for @shop do |f| %>
+  <p>
+    <%= f.text_field :name, placeholder: 'お店の名前' %>
+    <% if @shop.errors.messages[:name].any? %>
+      <span class="error"><%= @shop.errors.messages[:name][0] %></span>
+    <% end %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

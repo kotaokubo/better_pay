@@ -1,0 +1,21 @@
+<h2>
+  <%= link_to 'お店を追加する', new_shop_path, class: 'header_menu' %>
+  最適Pay
+</h2>
+<p>
+  <%=link_to '検索する', search_shops_path, class: 'header_menu' %></p>
+
+<ul>
+  <% @shops.each do |shop|%>
+  <li>
+    <%= link_to shop.name, shop_path(shop.id) %>
+    <%= link_to '編集する', edit_shop_path(shop.id), class:'command' %>
+    <%= link_to '削除する',
+                shop_path(shop.id),
+                method: :delete,
+                class: 'command',
+                data: {confirm: '削除してよろしいですか？'}
+    %>
+  </li>
+  <% end %>
+</ul>￿
