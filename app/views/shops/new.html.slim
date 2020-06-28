@@ -1,0 +1,7 @@
+h2 お店を追加する
+= render 'form'
+= link_to "paypayのキャンペーンを表示する", new_shop_path("paypay")
+- if @shops.present?
+  = button_to "paypayのキャンペーンショップを追加する", paypay_save_shops_path
+  - @shops.each do |shop|
+    p = shop

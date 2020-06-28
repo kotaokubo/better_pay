@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9bea2aa-61ac-4904-8a75-391d9dfa0916" name="Default Changelist" comment="" />
+    <list default="true" id="b9bea2aa-61ac-4904-8a75-391d9dfa0916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/paypay_scrapes_concern.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shops/new.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/better_pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/better_pay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/shops_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/shops_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shops/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +48,13 @@
         <option value="$PROJECT_DIR$/.idea" />
       </set>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1YhWUAdNQiieToDAinwn0cDN9wb" />
   <component name="ProjectViewState">
@@ -177,6 +195,7 @@
       <workItem from="1583394837827" duration="475000" />
       <workItem from="1583395326904" duration="151000" />
       <workItem from="1583395501166" duration="72149000" />
+      <workItem from="1593238363633" duration="5738000" />
     </task>
     <servers />
   </component>
@@ -184,19 +203,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="553" height="445" key="SwitcherDM" timestamp="1583473762573">
-      <screen x="-1920" y="-518" width="1920" height="1057" />
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1593348794443">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="553" height="445" key="SwitcherDM/1440.428.960.681/0.23.1440.820/-1920.-518.1920.1057@-1920.-518.1920.1057" timestamp="1583473762573" />
-    <state x="-1284" y="-333" width="659" height="777" key="find.popup" timestamp="1583594806217">
-      <screen x="-1920" y="-518" width="1920" height="1057" />
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593348794443" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1593348794441">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="-1284" y="-333" width="659" height="777" key="find.popup/1440.428.960.624/0.23.1440.877/-1920.-518.1920.1057@-1920.-518.1920.1057" timestamp="1583594806217" />
-    <state x="-1289" y="-390" width="659" height="777" key="find.popup/1440.428.960.681/0.23.1440.820/-1920.-518.1920.1057@-1920.-518.1920.1057" timestamp="1583475483095" />
-    <state x="470" y="201" width="670" height="525" key="search.everywhere.popup" timestamp="1583654335001">
-      <screen x="0" y="23" width="1440" height="820" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593348794441" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1593348794441">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="470" y="201" width="670" height="525" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1583654335001" />
-    <state x="-1294" y="-289" width="670" height="676" key="search.everywhere.popup/1440.428.960.681/0.23.1440.820/-1920.-518.1920.1057@-1920.-518.1920.1057" timestamp="1583644368074" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593348794441" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1593348794442">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593348794442" />
+    <state width="1398" height="271" key="GridCell.Tab.1.bottom" timestamp="1593348794444">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593348794444" />
+    <state width="1398" height="271" key="GridCell.Tab.1.center" timestamp="1593348794443">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1593348794443" />
+    <state width="1398" height="271" key="GridCell.Tab.1.left" timestamp="1593348794443">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1593348794443" />
+    <state width="1398" height="271" key="GridCell.Tab.1.right" timestamp="1593348794443">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1593348794443" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1593334462524">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1593334462524" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/better_pay@Development__better_pay.rcov" NAME="Development: better_pay Coverage Results" MODIFIED="1593348794406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="better_pay" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 class ShopsController < ApplicationController
   # todo アクティブレコード勉強する
+  include PaypayScrapesConcern
 
   def index
     # @つけるとviewで呼び出す時に使える
@@ -21,6 +22,9 @@ class ShopsController < ApplicationController
   end
 
   def new
+    if params[:format] == "paypay"
+      @shops = set_paypay_shops
+    end
     @shop = Shop.new
   end
 
@@ -52,5 +56,14 @@ class ShopsController < ApplicationController
   end
 
   def destroy
+  end
+
+  def paypay_save
+    @shops = set_paypay_shops
+    shops = []
+    @shops.each do |shop|
+      shops << Shop.new(name: shop)
+    end
+    Shop.import shops
   end
 end
