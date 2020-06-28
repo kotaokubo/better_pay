@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     collection do
       get 'search'
       get 'count'
+      post 'paypay_save'
     end
   end
 
