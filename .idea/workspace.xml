@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9bea2aa-61ac-4904-8a75-391d9dfa0916" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/paypay_scrapes_concern.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/paypay_scrapes_concern.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +187,7 @@
       <workItem from="1583395326904" duration="151000" />
       <workItem from="1583395501166" duration="72149000" />
       <workItem from="1593238363633" duration="5738000" />
+      <workItem from="1593579037445" duration="1064000" />
     </task>
     <servers />
   </component>
@@ -237,6 +235,10 @@
     </state>
     <state width="1878" height="658" key="GridCell.Tab.1.right/0.23.1440.877/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1593354387821" />
     <state width="1398" height="271" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1593348794443" />
+    <state x="382" y="-788" width="659" height="518" key="find.popup" timestamp="1593580509993">
+      <screen x="-248" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="382" y="-788" width="659" height="518" key="find.popup/0.23.1440.877/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1593580509993" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1593334462524">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
